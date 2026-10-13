@@ -117,7 +117,7 @@
 } % new environment for two column entries
 
 \newenvironment{header}{
-    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}\selectfont
 }{
     \par\kern\topsep
 } % new environment for the header
@@ -141,6 +141,7 @@
 
 
 \begin{document}
+    \linespread{0.833}\selectfont % 10pt text on 10pt leading = 1.0 line spacing
     \newcommand{\AND}{\unskip
         \cleaders\copy\ANDbox\hskip\wd\ANDbox
         \ignorespaces
@@ -152,7 +153,9 @@
         \textbf{\fontsize{17pt}{17pt}\selectfont Isaac Alexander Vazquez}
 
         \vspace{0.05cm}
-
+        \mbox{\href{tel:+1XXXXXXXXXX}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}(805) 330-0059}}%
+        \kern 0.25cm%
+        \AND%
         \normalsize
         \mbox{\href{mailto:ialexandervazquez5@gmail.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}ialexandervazquez5@gmail.com}}%
         \kern 0.25cm%
@@ -174,33 +177,36 @@
 
 \begin{twocolentry}{
 \textit{San Luis Obispo, CA}    
-\textit{Expected May 2027}}
+\textit{Expected Dec 2026}}
 \textbf{California Polytechnic State University}
-
 \textit{Bachelor of Science in Computer Engineering}
-
 \end{twocolentry}
+
+\begin{onecolentry}
+\begin{highlights}
+    \item \textbf{Relevant Courses:} Digital and Computer Design, Microcontrollers and Embedded Applications, Real-time Operating Systems, High-Performance Embedded Systems, Autonomous Mobile Robotics, Hardware Security
+\end{highlights}
+\end{onecolentry}
 
 
 \section{Skills}
 
 \begin{onecolentry}
-\begin{highlightsforbulletentries}
-    \item \textbf{Programming languages:} C, Python, SystemVerilog, RISC-V Assembly
+\begin{highlights}
+    \item \textbf{Programming languages:} C, C++, C\#, Python, Java, SystemVerilog, RISC-V Assembly
     \item \textbf{Hardware Platforms:} FreeRTOS, Linux, ROS2 Humble, Oscilloscope, Multimeter, GazeboSim, Foxglove
-    \item \textbf{Microcontrollers:} STM32 ARM-Cortex Microcontrollers, NVIDIA Jetson Nano Dashboard, 
-    ESP32, Basys3Board
+    \item \textbf{Microcontrollers:} STM32 ARM-Cortex Microcontrollers, NVIDIA Jetson Nano Dashboard, ESP32
     \item \textbf{Languages:} Spanish (fluent)
-\end{highlightsforbulletentries}
+\end{highlights}
 \end{onecolentry}
    
-\section{Projects}
+\section{Technical Projects}
 
 \textbf{Amiga Robot Driver Configurations} \textbar{} \textit{ROS2, NVIDIA Jetson, CAN Bus} \hfill \textit{Aug 2026}
 \vspace{0.08 cm}
 \begin{onecolentry}
 \begin{highlights}
-    \item Joined an existing four-wheeled Agrivulture robotics project and re-evaluated drivers built by a previous team to assess performance.
+    \item Joined an existing four-wheeled Agriculture robotics project and re-evaluated drivers built by a previous team to assess performance.
     \item Sniffed CAN packets between a PC and a Jetson Nano, analyzing frames with ROS2 Linux commands and oscilloscope measurements of voltage changes.
     \item Documented debugging processes for future collaborators and created launch files to start multiple ROS2 nodes concurrently.
 \end{highlights}
@@ -238,7 +244,7 @@
 \end{onecolentry}
 \vspace{0.14 cm}
 
-\section{Employment}
+\section{Work Experience}
 \vspace{0.14 cm}
 % Cal Poly ITS
 \begin{twocolentry}{
@@ -252,30 +258,22 @@
 \vspace{0.10 cm}
 \begin{onecolentry}
 \begin{highlights}
-    \item Provide technical support to students, faculty, and staff across hardware, software, and network issues, resolving about 10 issues per week
+    \item Provide technical support to students, faculty, and staff across hardware, software, and network issues, resolving about 10 issues per week.
     \item Image and deploy 5+ Windows and macOS devices for faculty and staff, installing applications and configuring campus network connectivity IPV4.
-    \item Document troubleshooting steps from client tickets in Jira, creating a reference used by student assistants and for training new hires
+    \item Document troubleshooting steps from client tickets in Jira, creating a reference used by student assistants and new hires.
 \end{highlights}
 \end{onecolentry}
 
 \vspace{0.2 cm}
 
-% LaCASA
-% \begin{twocolentry}{
-% \textit{San Luis Obispo, CA}    \\
-% \textit{June 2023 – June 2025}}
-% \textbf{LaCASA Student Assistant}
-
-% \textit{Cal Poly Student Affairs}
-% \end{twocolentry}
-
-% \vspace{0.10 cm}
-% \begin{onecolentry}
-% \begin{highlights}
-%     \item Promoted diversity efforts and inclusivity for a campus cultural center for Hispanic and Latinx identifying students and staff.
-%     \item Managed social media and communications for promoting events happening within the center and on campus.
-%     \item Collaborated and worked with other student assistants from different cultural and identity centers to run events to promote centers events and have discussions about identity and culture.
-% \end{highlights}
-% \end{onecolentry}
-
+\section{Involvements}
+\vspace{0.14 cm}
+% SHPE
+\begin{twocolentry}{
+\textit{San Luis Obispo, CA}  
+\textit{Aug 2022 – Present}}
+\textbf{Society of Hispanic Professional Engineers (SHPE)}
+\textit{Member}
+\end{twocolentry}
+\vspace{0.2 cm}
 \end{document}

@@ -176,11 +176,15 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy9.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx10.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free2solid.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1solid.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fontawesome5/fa5free1regular.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd
@@ -204,6 +208,7 @@ INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
 INPUT /usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc
