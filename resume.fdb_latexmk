@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1794093411.45872 "/home/ivazq805/resume/resume.tex" "resume.pdf" "resume" 1794093412.24365 0
+["pdflatex"] 1794176529.72319 "/home/ivazq805/resume/resume.tex" "resume.pdf" "resume" 1794176530.76533 0
   "/etc/texmf/web2c/texmf.cnf" 1772770280.82541 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ivazq805/resume/resume.tex" 1794093411.21766 11169 2441a4f88ef014bd1f96ba2a56a47477 ""
+  "/home/ivazq805/resume/resume.tex" 1794176529.28842 11177 39916f8a02b8bed56a1da7de4a53f1cc ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -119,8 +119,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1772770315.53794 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1772770375 8214318 1dac45d0b17440e09157e886f4ef1276 ""
-  "resume.aux" 1794093412.16616 1772 823533a0e74785853b1dfa868d94dcf3 "pdflatex"
-  "resume.tex" 1794093411.21766 11169 2441a4f88ef014bd1f96ba2a56a47477 ""
+  "resume.aux" 1794176530.66842 1772 823533a0e74785853b1dfa868d94dcf3 "pdflatex"
+  "resume.tex" 1794176529.28842 11177 39916f8a02b8bed56a1da7de4a53f1cc ""
   (generated)
   "resume.aux"
   "resume.log"
